@@ -1,0 +1,142 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-btn-img {
+    vertical-align: baseline;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: #222;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title p {
+    font-size: 20px;
+    color: #8C8C8C;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.services-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+
+
+.card h2 {
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 40px 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #F3F3F3;
+    transition: 0.5s ease;
+    content: '';
+}
+
+.card .icon {
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.card h2 {
+    font-size: 22px;
+    color: #222;
+    margin: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #8C8C8C;
+}
+
+.read-more-btn {
+    font-size: 17px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #FDA300;
+    padding: 11px 15px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.read-more-btn:hover {
+    background-color: #b58731;
+    transition: 0.5s ease;
+}
+
+.moreText {
+    display: none;
+}
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin: 0 auto 40px;
+    max-width: 480px;
+    font-size: 18px;
+}
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: #828282;
+}
+

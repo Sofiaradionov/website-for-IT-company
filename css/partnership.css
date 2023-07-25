@@ -1,0 +1,126 @@
+/* Header Logo */
+.logo:hover {
+    text-decoration: none;
+    color: initial;
+}
+
+/* Partners cells */
+.oddCell {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.evenCell {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.image img {
+    height: 200px;
+}
+
+.text h3 {
+    font-weight: bold;
+}
+
+.text p {
+    font-weight: 500;
+}
+
+
+/* Slider */
+.container2{
+    padding-top: 150px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
+
+/* Footer */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin: 0 auto 40px;
+    max-width: 480px;
+    font-size: 18px;
+}
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: #828282;
+}
